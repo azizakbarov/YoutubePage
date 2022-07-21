@@ -16,6 +16,15 @@
             border-radius: 2px;
             cursor: pointer;
             margin-right: 8px;
+            transition: opacity 1s;
+        }
+
+        .subscribe-button:hover {
+            opacity: 0.8;
+        }
+
+        .subscribe-button:active {
+            opacity: 0.5;
         }
 
         .join-button {
@@ -28,7 +37,18 @@
             width: 62px;
             border-radius: 2px;
             cursor: pointer;
+            transition: background-color 0.15s,
+                color 0.15s;
 
+        }
+
+        .join-button:hover {
+            background-color: rgb(41, 92, 220);
+            color: white; 
+        }
+
+        .join-button:active {
+            opacity: 0.7;
         }
 
         .tweet-button {
@@ -42,99 +62,12 @@
             font-size: 15px;
             cursor: pointer;
             margin-left: 8px;
-        }
-
-        .request-button {
-            background-color: black;
-            color: white;
-            width: 100px;
-            height: 36px;
-            font-size: 12px;
-        }
-
-        .cart-button {
-            background-color: rgb(238, 238, 18);
-            height: 36px;
-            width: 180px;
-            border-radius: 18px;
-            border: none;
-        }
-
-        .signup-button {
-            background-color: rgb(70, 156, 70);
-            color: white;
-            font-weight: bold;
-            height: 36px;
-            width: 90px;
-            border: none;
-            border-radius: 4px;
-        }
-
-        .getStarted-button {
-            background-color: rgb(104, 62, 133);
-            color: white;
-            height: 36px;
-            width: 100px;
-            border: none;
-            border-radius: 2px;
-            font-weight: bold;
-            font-size: 11px;
-        }
-
-        .download-button {
-            background-color: white;
-            border-color: grey;
-            border-style: solid;
-            border-radius: 2px;
-            color: grey;
-            border-width: 1px;
-            height: 36px;
-            width: 100px;
-            font-weight: bold;
-            font-size: 11px;
-        }
-
-        .apply-button {
-            background-color: rgba(37, 37, 190, 0.927);
-            color: white;
-            height: 36px;
-            width: 230px;
-            border-radius: 18px;
-            border: none;
-            font-weight: bold;
+            transition: box-shadow 0.15s;
 
         }
 
-        .save-button {
-            background-color: white;
-            color: rgb(41, 92, 220);
-            border-color: rgb(41, 92, 220);
-            border-style: solid;
-            border-width: 1px;
-            font-weight: bold;
-            border-radius: 18px;
-            height: 36px;
-            width: 74px;
-        }
-
-        .amazonCart-button {
-            background-color: rgb(255, 216, 20);
-            border-radius: 18px;
-            border: none;
-            height: 26px;
-            width: 120px; 
-            font-weight: bold;
-            margin-right: 8px;
-        }
-
-        .amazonBuy-button {
-            background-color: rgb(255, 164, 28);
-            border-radius: 18px;
-            border: none;
-            height: 26px;
-            width: 120px; 
-            font-weight: bold;
-            margin-right: 8px;
+        .tweet-button:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
         }
     </style>
 </head>
@@ -144,29 +77,6 @@
     <button class="subscribe-button">SUBSCRIBE</button>
     <button class="join-button">JOIN</button>
     <button class="tweet-button">Tweet</button>
-    <button class="request-button"> Request now</button>
-    <button class="cart-button ">Add to Cart</button>
-    <button class="signup-button">Sign up</button>
-    <button class="getStarted-button">Get Started</button>
-    <button class="download-button">Download</button>
-    <button class="apply-button">Apply on company website</button>
-    <button class="save-button">Save</button>
-
-   <div style="color:rgb(0, 113, 133); margin-top: 20px;"><a href="https://www.amazon.com" >Back to Amazon</a></div>
-
-   <div style="font-weight: bold; font-size: 20px; margin-top: 20px;">
-    Nike Black Running Shoes
-   </div>
-
-   <div style="color: rgb(0, 118, 0); font-weight: bold; margin-top: 20px;">$39 - in stock. </div>
-
-   <div style="margin-top: 20px; margin-bottom: 20px;">Free delivery tomorrow</div>
-
-   <button class="amazonCart-button">Add to Cart</button>
-   <button class="amazonBuy-button">Buy Now</button>
-    
-
-
 </body>
 
 </html>
