@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .amazonLink {
+            color: rgb(0, 113, 133);
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.15s;
+        }
+
+        .amazonLink:hover {
+            color: rgb(255, 164, 28);
+        }
+
+        .amazonCart-button {
+            background-color: rgb(255, 216, 20);
+            border-radius: 18px;
+            border: none;
+            height: 26px;
+            width: 120px;
+            font-weight: bold;
+            margin-right: 8px;
+            cursor: pointer;
+            transition: background-color 0.15s;
+        }
+
+        .amazonCart-button:hover {
+            background-color: rgb(209, 178, 23);
+        }
+
+        .amazonCart-button:active {
+            opacity: 0.7;
+        }
+
+        .amazonBuy-button {
+            background-color: rgb(255, 164, 28);
+            border-radius: 18px;
+            border: none;
+            height: 26px;
+            width: 120px;
+            font-weight: bold;
+            margin-right: 8px;
+            cursor: pointer;
+            transition: background-color 0.15s;
+        }
+
+        .amazonBuy-button:hover {
+            background-color: rgb(211, 129, 5);
+            ;
+        }
+
+        .amazonBuy-button:active {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div><a class="amazonLink" href="https://www.amazon.com">Back to Amazon</a></div>
+
+    <div style="font-weight: bold; font-size: 20px; margin-top: 20px;">
+        Nike Black Running Shoes
+    </div>
+
+    <div style="color: rgb(0, 118, 0); font-weight: bold; margin-top: 20px;">$39 - in stock. </div>
+
+    <div style="margin-top: 20px; margin-bottom: 20px;">Free delivery tomorrow</div>
+
+    <button class="amazonCart-button">Add to Cart</button>
+    <button class="amazonBuy-button">Buy Now</button>
+
+</body>
+
+</html>
