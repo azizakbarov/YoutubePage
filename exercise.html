@@ -7,126 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            max-width: 500px;
-        }
-
-        .request-button {
-            background-color: black;
+        .stretch-btn {
+            background-color: green;
             color: white;
-            width: 100px;
-            height: 36px;
-            font-size: 12px;
-            transition: opacity 1s;
+            padding: 10px 16px;
             cursor: pointer;
-        }
-
-        .request-button:hover {
-            opacity: 0.8;
-        }
-
-        .request-button:active {
-            opacity: 0.5;
-        }
-
-        .cart-button {
-            background-color: rgb(238, 238, 18);
-            height: 36px;
-            width: 180px;
-            border-radius: 18px;
+            transition: padding 1s;
             border: none;
-            cursor: pointer;
-            transition: 0.15s;
         }
 
-        .cart-button:hover {
-            background-color: rgb(181, 181, 31);
+        .stretch-btn:hover {
+            padding: 20px 32px;
         }
 
-        .signup-button {
-            background-color: rgb(70, 156, 70);
+        .shadow-btn {
+            background-color: green;
             color: white;
-            font-weight: bold;
-            height: 36px;
-            width: 90px;
-            border: none;
-            border-radius: 4px;
+            padding: 10px 16px;
             cursor: pointer;
             transition: box-shadow 0.15s;
-        }
-
-        .signup-button:hover {
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-        }
-
-        .getStarted-button {
-            background-color: rgb(104, 62, 133);
-            color: white;
-            height: 36px;
-            width: 100px;
             border: none;
-            border-radius: 2px;
-            font-weight: bold;
-            font-size: 11px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
         }
 
-        .download-button {
-            background-color: white;
-            border-color: grey;
-            border-style: solid;
-            border-radius: 2px;
-            color: grey;
-            border-width: 1px;
-            height: 36px;
-            width: 100px;
-            font-weight: bold;
-            font-size: 11px;
+        .shadow-btn:active {
+            margin-top: 5px;
+            margin-left: 5px;
+            box-shadow: none;
+        }
+
+        .number-btn {
+            background-color: green;
+            color: white;
+            padding: 10px 16px;
+            margin-right: 8px;
+            margin-left: 8px;
             cursor: pointer;
-            transition: background-color 0.15s,
-                color 0.15s;
-        }
-
-        .download-button:hover {
-            background-color: grey;
-            color: white;
-        }
-
-        .download-button:active {
-            opacity: 0.7;
-        }
-
-        .apply-button {
-            background-color: rgba(37, 37, 190, 0.927);
-            color: white;
-            height: 36px;
-            width: 230px;
-            border-radius: 18px;
             border: none;
-            font-weight: bold;
-
+            transition: padding 0.15s, margin 0.15s;
         }
 
-        .save-button {
-            background-color: white;
-            color: rgb(41, 92, 220);
-            border-color: rgb(41, 92, 220);
-            border-style: solid;
-            border-width: 1px;
-            font-weight: bold;
-            border-radius: 18px;
-            height: 36px;
-            width: 74px;
+        .number-btn:hover {
+            padding: 10px 32px;
+            margin-right: 0;
+            margin-left: 0;
         }
     </style>
+
 </head>
 
-<button class="request-button"> Request now</button>
-<button class="cart-button ">Add to Cart</button>
-<button class="signup-button">Sign up</button>
-<button class="getStarted-button">Get Started</button>
-<button class="download-button">Download</button>
-<button class="apply-button">Apply on company website</button>
-<button class="save-button">Save</button>
+<body>
+    <button class="stretch-btn">Stretch</button>
+    <button class="shadow-btn">Shadow</button>
+    <button class="number-btn">One</button>
+    <button class="number-btn">Two</button>
+    <button class="number-btn">Three</button>
 </body>
 
 </html>
